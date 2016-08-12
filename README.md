@@ -10,6 +10,7 @@
 8. integer divisions
 9. Division by 0 in Solidity will result in 0, not an exception. 
 10. `constant` state variables and dynamic values like `now`
+11. variable coercion string to number
 
 ## Security Patterns
 ### Mutex Lock
