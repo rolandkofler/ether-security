@@ -7,6 +7,8 @@
 5. Arrays/loops and gas limits
 6. economic attacks
 7. variable overflow
+8. integer divisions
+9. `constant` state variables and dynamic values like `now`
 
 ## Security Patterns
 ### Mutex Lock
