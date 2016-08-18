@@ -11,6 +11,7 @@
 9. Division by 0 in Solidity will result in 0, not an exception. 
 10. `constant` state variables and dynamic values like `now`
 11. variable coercion string to number
+12. `var` defaults to small type, e.g.: `for (var i = 0; i < employees.length; i++)` becomes `uint8` because of  `i=0`
 
 ## Security Patterns
 ### Mutex Lock
