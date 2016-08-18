@@ -12,6 +12,7 @@
 10. `constant` state variables and dynamic values like `now`
 11. variable coercion string to number
 12. `var` defaults to small type, e.g.: `for (var i = 0; i < employees.length; i++)` becomes `uint8` because of  `i=0`
+13. call stack depth limit. The EVM’s call stack has a hard limit of 1024. That means that if the amount of nested calls reaches 1024, the contract will fail.
 
 ## Security Patterns
 ### Mutex Lock
