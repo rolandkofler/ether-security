@@ -17,6 +17,7 @@
 ### Mutex Lock
 ### Standardization
 ### Bug Bounties
+### multiple administator roles
 
 # Resources
 https://blog.ethereum.org/2016/06/19/thinking-smart-contract-security
